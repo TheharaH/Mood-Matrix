@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Loading Screen */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #002f6c; /* Dark Blue */
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out; /* Fade in effect */
+}
+
+.loading-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.loading-text {
+  font-size: 24px;
+  animation: blink 1.5s infinite step-start; /* Blinking effect */
+}
+
+/* Main Content */
+.app-content {
+  display: block;
+  animation: fadeIn 1.5s ease-in-out; /* Fade-in effect for content */
+}
+
+header {
+  background-color: #002f6c; /* Dark Blue */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+/* Header Logo */
+header img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 70%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  background-color: #002f6c; /* Dark Blue */
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #00508d; /* Lighter Blue */
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.result {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #002f6c;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
